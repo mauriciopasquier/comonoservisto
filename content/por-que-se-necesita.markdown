@@ -7,7 +7,7 @@ title: ¿Por qué se necesita el anonimato?
 
 Existen varias razones por las que alguien podría querer ser anónimo en la web:
 
-* *para proteger sus datos*: es [sabido][] que los ISPs y los buscadores en general venden la información registrada de la actividad de sus usuarios. Si bien
+* *para ocultar datos*: es [sabido][] que los ISPs y los buscadores en general venden la información registrada de la actividad de sus usuarios. Si bien
   es esperable (por cuestiones legales) que no provean identificación del usuario, se ha [probado][] que se puede deducir la
   identidad de un usuario en base a dicha información supuestamente anónima. Un usuario puede querer evitar este uso de su
   actividad en Internet. Además, a partir de una dirección IP, es posible recabar [mucha][] información sobre el [host][] realizando la solicitud. Un usuario puede
