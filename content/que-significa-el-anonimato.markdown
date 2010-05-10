@@ -1,8 +1,8 @@
 ---
-title: Qué significa?
+title: ¿Qué significa el anonimato?
 ---
 
-¿Qué significa?
+¿Qué significa el anonimato?
 ===============
 
 La comunicación entre clientes y servidores en internet funciona principalmente mediante la pila de protocolos TCP/IP. En este
