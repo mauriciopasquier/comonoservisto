@@ -23,6 +23,7 @@ Existen varias razones por las que alguien podría querer ser anónimo en la web
   será cada vez más importante para los usuarios disponer de una técnica confiable de ser anónimos durante su actividad online.
 * *porque sí*: el usuario puede querer, simplemente, ejercer sus [derechos][] fundamentales.
 
+
 [sabido]: http://seekingalpha.com/article/29449-compete-ceo-isps-sell-clickstreams-for-5-a-month
 [probado]: http://en.wikipedia.org/wiki/AOL_search_data_scandal
 [argentina]: http://opennet.net/blog/2008/11/adi%C3%B3s-diego-argentine-judges-cleanse-internet
