@@ -1,5 +1,5 @@
 !!! xml
-!!! RDFa
+!!! rdfa
 %html{'xml:lang' => 'es_AR',  'xmlns' => 'http://www.w3.org/1999/xhtml',
                               'xmlns:dc' => "http://purl.org/dc/terms/"}
   %head
@@ -10,11 +10,6 @@
     %meta{:name => "generator", :content => "nanoc 3.1.2"}
   %body
     #barra
-      - inicio = @items.find { |i| i.reps[0].path == '/' }
-      %ul
-        %li= link_to(inicio[:title], inicio.reps[0])
-        - inicio.children.each do |pagina|
-          %li= link_to(pagina[:title], pagina.reps[0])
     #contenido= yield
     #pie
       %p{:about => "", :resource => "http://www.w3.org/TR/rdfa-syntax", :rel => "dc:conformsTo"}
