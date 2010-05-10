@@ -22,7 +22,7 @@ a:hover {
   color: #f90;
 }
 
-#main {
+#contenido {
   position: absolute;
 
   top: 40px;
@@ -60,7 +60,7 @@ a:hover {
   line-height: 20px;
 }
 
-#sidebar {
+#barra {
   position: absolute;
 
   top: 40px;
@@ -74,7 +74,7 @@ a:hover {
   text-align: right;
 }
 
-#sidebar h2 {
+#barra h2 {
   text-transform: uppercase;
 
   font-size: 13px;
@@ -86,13 +86,13 @@ a:hover {
   line-height: 20px;
 }
 
-#sidebar ul {
+#barra ul {
   list-style-type: none;
 
   margin: 20px 0;
 }
 
-#sidebar li {
+#barra li {
   font-size: 14px;
 
   line-height: 20px;
