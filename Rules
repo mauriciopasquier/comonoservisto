@@ -13,16 +13,29 @@
 compile '/imagenes/*/' do
 end
 
+compile '/imagenes/*/', :rep => :menu do
+end
+
 compile '/estilos/*/' do
+end
+
+compile '/estilos/*/', :rep => :menu do
 end
 
 compile '/js/*/' do
 end
 
-compile '/fuentes/*/' do
+compile '/js/*/', :rep => :menu do
 end
 
-compile '*' do
+compile '/copyleft/fuentes/*/' do
+end
+
+compile '/copyleft/fuentes/*/', :rep => :menu do
+end
+
+
+compile '*', :rep => :menu do
   filter :kramdown
   layout 'default'
 end
@@ -39,11 +52,11 @@ route '/js/*/' do
   item.identifier.chop + '.js'
 end
 
-route '/fuentes/*/' do
+route '/copyleft/fuentes/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
-route '*' do
+route '*', :rep => :menu do
   item.identifier + 'index.html'
 end
 

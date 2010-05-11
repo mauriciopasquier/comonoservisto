@@ -1,9 +1,9 @@
 ---
-title: Introducción
+title: Anonimato
 ---
 
-Introducción
-============
+Anonimato
+=========
 
 > “If you have something that you don’t want anyone to know, maybe you shouldn’t be doing it in the first place.”
 >
@@ -19,13 +19,9 @@ El objetivo de esta página es hablar sobre anonimato en Internet, lo que signif
 anonimato es [deseable][] por varias razones, de las cuales serán comentadas las más importantes. Se analizará la importancia del
 [efecto red][] en las redes de anonimato.
 
-Todo el trabajo es realizado con tecnología [libre][], en [formatos][] estándar y licenciado con [GFDL][].
 
 
 [schmidt]: http://gawker.com/5419271/google-ceo-secrets-are-for-filthy-people
 [schneier]: http://www.schneier.com/blog/archives/2009/12/my_reaction_to.html
-[deseable]: /por-que-se-necesita/
-[efecto red]: /efecto-red/
-[libre]: /hecho-con/
-[formatos]: /descargar/
-[GFDL]: /gfdl/
+[deseable]: por-que-se-necesita/
+[efecto red]: efecto-red/

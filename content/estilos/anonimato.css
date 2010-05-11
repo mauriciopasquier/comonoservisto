@@ -16,11 +16,6 @@ a:hover {
   color: #f90;
 }
 
-p, ul, ol, h1, h2, h3, h4, h5, h6 {
-  margin-bottom: 1em;
-  padding: 0 15px;
-}
-
 #barra {
   position: fixed;
   top: 20px;
@@ -28,15 +23,31 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
   width: 15%;
   padding-right: 20px;
   border-right: 1px solid #ccc;
-  text-align: right;
+  text-align: left;
   font-size: small;
 }
 
 #barra h1 {
-  font-size: medium;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 0.5em;
+  margin: 1em 0;
+  font-size: medium;
+}
+
+#barra li {
+  padding: 0 15px;
+}
+
+#barra ul {
+  line-height: 1.5em;
+}
+
+#barra ul.submenu {
+  display: none;
+}
+
+#barra ul.menu > li:hover > ul {
+  display: block;
 }
 
 #contenido {
@@ -47,6 +58,19 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
   top: 40px;
   left: 20%;
   width: 60%;
+}
+
+#contenido p,
+#contenido ul,
+#contenido ol,
+#contenido h1,
+#contenido h2,
+#contenido h3,
+#contenido h4,
+#contenido h5,
+#contenido h6 {
+  margin-bottom: 1em;
+  padding: 0 15px;
 }
 
 #contenido em {
@@ -74,7 +98,7 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
 
 #contenido h4{
   background: #777;
-  line-height: 1.1em;
+  line-height: 1em;
 }
 
 #contenido blockquote {
@@ -98,7 +122,6 @@ p, ul, ol, h1, h2, h3, h4, h5, h6 {
   height: 30px;
   bottom: 0;
   left: 0;
-  font-family: Arial;
   text-align: right;
   background: transparent;
 }
