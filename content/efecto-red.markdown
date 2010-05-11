@@ -20,4 +20,4 @@ confianza distribuida, la variedad de usuarios, procedencias y tipos de conexió
 La cantidad y variedad de personas y organizaciones que usan Tor es la razón principal por la que este trabajo se enfoca dicho
 sistema.
 
-[dice]: 
+[dice]: http://weis2006.econinfosec.org/docs/41.pdf
