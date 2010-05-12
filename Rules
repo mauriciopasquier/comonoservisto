@@ -12,28 +12,23 @@
 
 compile '/imagenes/*/' do
 end
-
 compile '/imagenes/*/', :rep => :menu do
 end
 
 compile '/estilos/*/' do
 end
-
 compile '/estilos/*/', :rep => :menu do
 end
 
 compile '/js/*/' do
 end
-
 compile '/js/*/', :rep => :menu do
 end
 
 compile '/copyleft/fuentes/*/' do
 end
-
 compile '/copyleft/fuentes/*/', :rep => :menu do
 end
-
 
 compile '*', :rep => :menu do
   filter :kramdown
@@ -54,6 +49,15 @@ end
 
 route '/copyleft/fuentes/*/' do
   item.identifier.chop + '.' + item[:extension]
+end
+
+route '/imagenes/*/', :rep => :menu do
+end
+route '/estilos/*/', :rep => :menu do
+end
+route '/js/*/', :rep => :menu do
+end
+route '/copyleft/fuentes/*/', :rep => :menu do
 end
 
 route '*', :rep => :menu do

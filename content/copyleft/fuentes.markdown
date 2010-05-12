@@ -5,4 +5,4 @@ title: Fuentes
 Fuentes
 =======
 
-[css.svg](/fuentes/css.svg)
+[css.svg](css.svg)
