@@ -117,11 +117,23 @@ a:hover {
 
 #pie {
   z-index: -1;
-  width: 99%;
-  position: fixed;
+  width: 100%;
   height: 45px;
+  background: transparent;
+  position: fixed;
   bottom: 0;
   left: 0;
+}
+
+#validacion {
   text-align: right;
-  background: transparent;
+  position: fixed;
+  bottom: 0;
+  right: 5px;
+  width: 88px;
+}
+
+#cl {
+  font-size: xx-small;
+  margin: 20px 0 0 20px;
 }

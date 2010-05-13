@@ -27,9 +27,17 @@
         %h1 Contenido
     #contenido= yield
     #pie
-      %p{:about => "", :resource => "http://www.w3.org/TR/CSS2/", :rel => "dc:conformsTo"}
-        %a{:href => "http://jigsaw.w3.org/css-validator/check/referer"}
-          %img{:src => "/imagenes/css.png", :alt => "CSS 2.1 válido"}
-      %p{:about => "", :resource => "http://www.w3.org/TR/rdfa-syntax", :rel => "dc:conformsTo"}
-        %a{:href => "http://validator.w3.org/check?uri=referer"}
-          %img{:src => "/imagenes/xhtml-rdfa.png", :alt => "XHTML + RDFa válido"}
+      #validacion
+        %p{:about => "", :resource => "http://www.w3.org/TR/CSS2/", :rel => "dc:conformsTo"}
+          %a{:href => "http://jigsaw.w3.org/css-validator/check/referer"}
+            %img{:src => "/imagenes/css.png", :alt => "CSS 2.1 válido"}
+        %p{:about => "", :resource => "http://www.w3.org/TR/rdfa-syntax", :rel => "dc:conformsTo"}
+          %a{:href => "http://validator.w3.org/check?uri=referer"}
+            %img{:src => "/imagenes/xhtml-rdfa.png", :alt => "XHTML + RDFa válido"}
+      #cl
+        %p
+          Copyright (c) 2009
+          %a{:href => "http://mauriciopasquier.com.ar"} Mauricio Pasquier Juan
+        %p
+          Sitio realizado y diseñado por
+          %a{:href => "http://lainventoria.com.ar"} La Inventoría
