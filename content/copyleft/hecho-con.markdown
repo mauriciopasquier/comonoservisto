@@ -31,7 +31,6 @@ Fuentes
 -------
 
 * [Obras Creative Commons][CC]
-* [flickr]
 
 Versiones anteriores
 ---------
