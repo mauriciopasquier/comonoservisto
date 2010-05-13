@@ -40,9 +40,8 @@ anonimato) es necesario usar otras herramientas como [Privoxy] junto con Tor.
 
 [cebollas]: cebollas/
 [Tor]: http://www.torproject.org/
-[predecesor]: /criptografia/ataques/
+[predecesor]: /criptografia/ataques/#predecesor
 [nombres]: /criptografia/nombres/
 [TLS]: http://es.wikipedia.org/wiki/Transport_Layer_Security
 [Diffie-Hellman]: http://es.wikipedia.org/wiki/Diffie-Hellman
-[nombres]: /criptografia/nombres/
 [Privoxy]: http://www.privoxy.org/

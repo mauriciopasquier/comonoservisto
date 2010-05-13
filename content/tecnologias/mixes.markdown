@@ -34,6 +34,6 @@ de personas entre las que un usuario determinado está escondiendo su identidad)
 el origen de los datos y retransmiten.
 
 [David Chaum]: http://en.wikipedia.org/wiki/David_Chaum
-[analisis]: /criptografia/ataques/#analisis
-[confirmacion]: /criptografia/ataques/#confirmacion
+[analisis]: /criptografia/ataques/#anlisis-de-trfico
+[confirmacion]: /criptografia/ataques/#confirmacin-de-trfico
 [Mixminion]: http://mixminion.net/
