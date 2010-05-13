@@ -1,5 +1,5 @@
 body {
-  background: #000 url(../imagenes/tipo.png) no-repeat fixed top right;
+  background: #000 url(/imagenes/tipo.png) no-repeat fixed top right;
   color: #fff;
 }
 
@@ -117,9 +117,9 @@ a:hover {
 
 #pie {
   z-index: -1;
-  width: 100%;
+  width: 99%;
   position: fixed;
-  height: 30px;
+  height: 45px;
   bottom: 0;
   left: 0;
   text-align: right;
