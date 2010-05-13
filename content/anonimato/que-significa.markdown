@@ -1,5 +1,5 @@
 ---
-title: ¿Qué significa el anonimato?
+titulo: ¿Qué significa el anonimato?
 ---
 
 ¿Qué significa el anonimato?

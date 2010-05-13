@@ -4,7 +4,7 @@
                               'xmlns:dc' => "http://purl.org/dc/terms/"}
   %head
     %meta{'http-equiv' => "Content-Type", :content => "text/html; charset=utf-8"}
-    %title Cómo no ser visto | #{@item[:title]}
+    %title Cómo no ser visto | #{@item[:titulo]}
     %link{:rel => "stylesheet", :type => "text/css", :href => "/estilos/reset.css", :media => "screen"}
     %link{:rel => "stylesheet", :title => "general", :type => "text/css",
           :href => "/estilos/anonimato.css", :media => "screen"}
@@ -15,14 +15,14 @@
         %h1 Secciones
         - inicio = @items.find { |i| i.reps[0].path == '/' }
         %ul.menu
-          %li= link_to(inicio[:title], inicio.reps[0])
+          %li= link_to(inicio[:titulo], inicio.reps[0])
           - inicio.children.each do |pagina|
             %li
-              = link_to(pagina[:title], pagina.reps[0]) if pagina.reps[0].name == :menu
+              = link_to(pagina[:titulo], pagina.reps[0]) if pagina.reps[0].name == :menu
               - unless pagina.children.empty?
                 %ul.submenu
                   - pagina.children.each do |subpagina|
-                    %li= link_to(subpagina[:title], subpagina.reps[0]) if subpagina.reps[0].name == :menu
+                    %li= link_to(subpagina[:titulo], subpagina.reps[0]) if subpagina.reps[0].name == :menu
       #indice
         %h1 Contenido
     #contenido= yield

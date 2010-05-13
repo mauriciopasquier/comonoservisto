@@ -1,5 +1,5 @@
 ---
-title: ¿Por qué se necesita el anonimato?
+titulo: ¿Por qué se necesita el anonimato?
 ---
 
 ¿Por qué se necesita el anonimato?

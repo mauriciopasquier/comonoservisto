@@ -1,5 +1,5 @@
 ---
-title: El efecto red
+titulo: El efecto red
 ---
 
 El efecto red

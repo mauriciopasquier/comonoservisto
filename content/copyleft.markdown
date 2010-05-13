@@ -1,5 +1,5 @@
 ---
-title: Copyleft
+titulo: Copyleft
 ---
 
 Copyleft
