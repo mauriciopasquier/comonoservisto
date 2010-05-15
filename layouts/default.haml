@@ -10,21 +10,7 @@
           :href => "/estilos/comonoservisto.css", :media => "screen"}
     %meta{:name => "generator", :content => "nanoc 3.1.2"}
   %body
-    #barra
-      #secciones
-        %h1 Secciones
-        - inicio = @items.find { |i| i.reps[0].path == '/' }
-        %ul.menu
-          %li= link_to(inicio[:titulo], inicio.reps[0])
-          - inicio.children.each do |pagina|
-            %li
-              = link_to(pagina[:titulo], pagina.reps[0]) if pagina.reps[0].name == :menu
-              - unless pagina.children.empty?
-                %ul.submenu
-                  - pagina.children.each do |subpagina|
-                    %li= link_to(subpagina[:titulo], subpagina.reps[0]) if subpagina.reps[0].name == :menu
-      #indice
-        %h1 Contenido
+    #barra= render 'barra'
     #contenido= yield
     #pie
       #validacion

@@ -1,0 +1,20 @@
+#secciones
+  %h1 Secciones
+  - raiz = @items.find { |i| i.reps[0].path == '/' }
+  - clase = (@item == raiz) ? 'actual' : 'noactual'
+  - link = link_to(raiz[:titulo], raiz.reps[0])
+  %ul.menu
+    %li{:class => clase}= link
+    - raiz.children.each do |pagina|
+    - clase = (@item == pagina) ? 'actual' : 'noactual'
+    - link = link_to(pagina[:titulo], pagina.reps[0])
+      %li{:class => clase}
+        = link if pagina.reps[0].name == :menu
+        - unless pagina.children.empty?
+          %ul.submenu
+            - pagina.children.each do |subpagina|
+            - clase = (@item == subpagina) ? 'actual' : 'noactual'
+            - link = link_to(subpagina[:titulo], subpagina.reps[0])
+              %li{:class => clase}= link if subpagina.reps[0].name == :menu
+#indice
+  %h1 Contenido
