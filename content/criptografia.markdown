@@ -1,5 +1,5 @@
 ---
-titulo: Criptografia
+titulo: Criptografía
 ---
 
 Criptografía
