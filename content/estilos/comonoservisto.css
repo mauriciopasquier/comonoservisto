@@ -27,6 +27,11 @@ a:hover {
   font-size: small;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
 #barra h1 {
   text-align: center;
   text-transform: uppercase;
