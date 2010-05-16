@@ -62,8 +62,8 @@ li:hover > ul.submenu > * {
 }
 
 #contenido {
-  font-family: Times, sans-serif;
-  font-size: large;
+  font-family: "Courier", monospace;
+  font-size: medium;
   line-height: 1.5em;
   position: absolute;
   top: 20px;
