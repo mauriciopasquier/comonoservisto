@@ -19,3 +19,7 @@ Los svg de las imágenes están acá:
 
 * [css.svg](css.svg)
 * [xhtml-rdfa.svg](xhtml-rdfa.svg)
+* [proxy.svg](proxy.svg)
+
+
+[git]: http://git-scm.com/
