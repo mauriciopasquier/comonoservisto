@@ -91,25 +91,25 @@ li:hover > ul.submenu > * {
 
 #contenido h1{
   font-size: xx-large;
-  background: #111;
+  background: #222;
   line-height: 1.5em;
 }
 
 #contenido h2{
   font-size: x-large;
-  background: #333;
+  background: #444;
   line-height: 1.3em;
 }
 
 #contenido h3{
   font-size: large;
-  background: #555;
+  background: #666;
   line-height: 1.1em;
 }
 
 #contenido h4{
   font-size: large;
-  background: #777;
+  background: #888;
   line-height: 1em;
 }
 
