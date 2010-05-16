@@ -63,7 +63,7 @@ li:hover > ul.submenu > * {
 
 #contenido {
   font-family: Times, sans-serif;
-  font-size: medium;
+  font-size: large;
   line-height: 1.5em;
   position: absolute;
   top: 20px;
@@ -108,6 +108,7 @@ li:hover > ul.submenu > * {
 }
 
 #contenido h4{
+  font-size: large;
   background: #777;
   line-height: 1em;
 }
