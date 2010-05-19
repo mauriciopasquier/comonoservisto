@@ -74,6 +74,7 @@ poca huella y es liviano. Además, es recomendable usar un servidor web dedicado
 
 1. Instalar e iniciar el servidor web
    1. Descargar la última versión (al momento de escribir esto es la [2.25b].)
+
    2. Descomprimir el archivo
 
           tar -xzvf thttpd-2.25b.tar.gZ
@@ -87,12 +88,14 @@ poca huella y es liviano. Además, es recomendable usar un servidor web dedicado
           mkdir servicio; cd servicio
 
    5. En este directorio ponemos los archivos a servir
+
    6. Arrancar el servidor web escuchando un puerto cualquiera
 
           ../thttpd -p puerto -h localhost
 
 2. Configurar el servicio oculto
    1. Abrir el archivo `torrc` y buscar la parte de los servicios ocultos
+
    2. Agregar
  
           HiddenServiceDir /home/usuario/servicio/
@@ -102,6 +105,7 @@ poca huella y es liviano. Además, es recomendable usar un servidor web dedicado
           HiddenServicePort 80 127.0.0.1:puerto/
 
       siendo `puerto` el que se eligió anteriormente
+
    3. Guardar el archivo de configuración y reiniciar Tor
 
 En este momento Tor crea, en el `HiddenServiceDir` elegido el par de claves pública/privada y el archivo `hostname`, que es donde se
