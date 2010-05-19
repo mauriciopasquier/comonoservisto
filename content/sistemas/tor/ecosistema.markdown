@@ -26,6 +26,8 @@ Vidalia
 
 [Vidalia] es una GUI para controlar el servicio Tor, escrita con el framework Qt y multiplataforma (GNU/Linux, Unix, Mac, Windows).
 
+![Panel de control de Vidalia](/imagenes/vidalia.png "Se puede controlar Tor y obtener mucha información sobre la red")
+
 Polipo
 ------
 
