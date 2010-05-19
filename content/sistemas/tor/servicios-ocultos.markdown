@@ -1,14 +1,13 @@
 ---
-titulo: Servicios ocultos o de Ubicación oculta
+titulo: Servicios ocultos
 ---
 
-Servicios ocultos o de ubicación oculta
-=======================================
+Servicios ocultos
+=================
 
-Ya vimos cómo logra un usuario conectado a Tor ser anónimo para el servicio (Bob) al que accede. Pero, ¿qué pasa si es Bob el que
+Ya vimos cómo logra un usuario conectado a Tor (Alice) ser anónimo para el servicio (Bob) al que accede. Pero, ¿qué pasa si es Bob el que
 desea permanecer anónimo? Para esto existen los servicios ocultos o de ubicación oculta (location-hidden services). Mediante un
-servicio oculto, es posible ofrecer un servidor en la red Tor sin una IP que lo identifique, con la desventaja de que es necesario
-accederlo a través de Tor.
+servicio oculto, es posible ofrecer un servidor en la red Tor sin una IP que lo identifique, con la concesión de accederlo a través de Tor.
 
 Cómo funcionan, paso a paso
 ---------------------------
