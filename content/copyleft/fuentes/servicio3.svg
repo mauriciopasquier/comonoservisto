@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="servicio3.svg"
+   sodipodi:docname="servicio4.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <sodipodi:namedview
      id="base"
@@ -36,9 +36,7 @@
      inkscape:window-width="1022"
      inkscape:window-height="707"
      inkscape:window-x="0"
-     inkscape:window-y="0"
-     showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:window-y="0" />
   <defs
      id="defs4">
     <marker
@@ -3453,17 +3451,15 @@
          y="106.49982"
          id="tspan4373">PDI</tspan></text>
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:2,2;marker-end:url(#Arrow1SendA);stroke-dashoffset:0"
-       d="M 333.40009,248.69919 L 284.56773,194.36007 L 236.94623,168.79227"
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow1SendA);stroke-miterlimit:4;stroke-dasharray:2, 2;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 173.43284,144.83419 L 126.40193,67.945716 L 75.462692,67.201687"
        id="path7150"
        inkscape:connector-type="polyline"
-       inkscape:connection-start="#g4427"
-       inkscape:connection-end="#g4223"
        sodipodi:nodetypes="ccc" />
     <g
        inkscape:label="Layer 1"
        id="g37241"
-       transform="matrix(0.6154894,0,0,0.6154894,230.05528,121.48656)">
+       transform="matrix(0.6154894,0,0,0.6154894,88.283348,78.272656)">
       <g
          transform="matrix(2.330573e-2,0,0,1.227058e-2,44.47891,44.41691)"
          id="g5022"
@@ -3548,12 +3544,12 @@
     <text
        xml:space="preserve"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
-       x="187.36571"
-       y="130.94127"
+       x="45.593773"
+       y="87.727364"
        id="text37254"><tspan
          sodipodi:role="line"
-         x="187.36571"
-         y="130.94127"
+         x="45.593773"
+         y="87.727364"
          id="tspan37258">PDI 1-3 PK</tspan></text>
   </g>
 </svg>

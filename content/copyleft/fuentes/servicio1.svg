@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="servicio1.svg"
+   sodipodi:docname="servicio2.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <sodipodi:namedview
      id="base"
@@ -3229,5 +3229,59 @@
          x="202.42303"
          y="212.97682"
          id="tspan4331">distribuida</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 333.40009,265.02513 L 79.600333,243.18355"
+       id="path4333"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#g4427"
+       inkscape:connection-end="#g2834"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 345.15401,232.83403 L 277.2341,91.402166"
+       id="path4335"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#g4427"
+       inkscape:connection-end="#g4235"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 361.11074,232.07589 L 346.14997,91.402166"
+       id="path4337"
+       inkscape:connector-type="polyline"
+       inkscape:connection-start="#g4427"
+       inkscape:connection-end="#g7998"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="99.421638"
+       y="266.64807"
+       id="text4359"><tspan
+         sodipodi:role="line"
+         x="99.421638"
+         y="266.64807"
+         id="tspan4363">PDI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="257.02365"
+       y="106.49982"
+       id="text4367"><tspan
+         sodipodi:role="line"
+         x="257.02365"
+         y="106.49982"
+         id="tspan4369">PDI</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Monospace;-inkscape-font-specification:Monospace"
+       x="329.04681"
+       y="106.49982"
+       id="text4371"><tspan
+         sodipodi:role="line"
+         x="329.04681"
+         y="106.49982"
+         id="tspan4373">PDI</tspan></text>
   </g>
 </svg>

@@ -15,7 +15,7 @@
    sodipodi:version="0.32"
    inkscape:version="0.46"
    version="1.0"
-   sodipodi:docname="circuito3.svg"
+   sodipodi:docname="cebolla3.svg"
    inkscape:output_extension="org.inkscape.output.svg.inkscape">
   <sodipodi:namedview
      id="base"
@@ -27,11 +27,11 @@
      objecttolerance="10"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.3190199"
-     inkscape:cx="202.03331"
-     inkscape:cy="142.11267"
+     inkscape:zoom="0.9429138"
+     inkscape:cx="266.34178"
+     inkscape:cy="105.40334"
      inkscape:document-units="px"
-     inkscape:current-layer="g9704"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1022"
      inkscape:window-height="707"
@@ -1894,6 +1894,18 @@
          id="path9710"
          d="M 40.945425,333.41974 L 191.71394,333.41974"
          style="fill:none;fill-rule:evenodd;stroke:#4c47d1;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path9712"
+         d="M 40.945423,333.41974 L 191.71394,333.41974"
+         style="fill:none;fill-rule:evenodd;stroke:#bdc5cc;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="g9808"
+       transform="matrix(5.7193162e-2,0.9518808,-5.3908755,-2.2014059,2139.4124,798.93871)">
+      <path
+         id="path9816"
+         d="M 40.945423,333.41974 L 191.71394,333.41974"
+         style="fill:none;fill-rule:evenodd;stroke:#bdc5cc;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="g9798"
@@ -1902,6 +1914,10 @@
          id="path9804"
          d="M 40.945425,333.41974 L 191.71394,333.41974"
          style="fill:none;fill-rule:evenodd;stroke:#4c47d1;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path9806"
+         d="M 40.945423,333.41974 L 191.71394,333.41974"
+         style="fill:none;fill-rule:evenodd;stroke:#bcc4cc;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        id="g9788"
@@ -1914,6 +1930,10 @@
          id="path9794"
          d="M 40.945425,333.41974 L 191.71394,333.41974"
          style="fill:none;fill-rule:evenodd;stroke:#4c47d1;stroke-width:8;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         id="path9796"
+         d="M 40.945423,333.41974 L 191.71394,333.41974"
+         style="fill:none;fill-rule:evenodd;stroke:#bdc5cc;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     </g>
     <g
        transform="matrix(0.6571066,0,0,0.6571066,10.789978,8.8617909)"
