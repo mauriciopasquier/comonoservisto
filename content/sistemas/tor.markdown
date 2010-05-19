@@ -17,8 +17,14 @@ redes). Acá vemos en detalle cómo es la red, el proceso de conexión y las dec
 ------
 
 * [Propiedades]
-* [Servicios ocultos]
+* [Modelo de despliegue]
+* [Ecosistema]
+* [Servicios ocultos en Tor]
+* [Problemas conocidos]
 
 [circuitos]: /tecnologias/circuitos-telescopicos/
 [Propiedades]: propiedades/
-[Servicios ocultos]: servicios-ocultos/
+[Modelo de despliegue]: modelo-de-despliegue/
+[Ecosistema]: ecosistema/
+[Servicios ocultos en Tor]: servicios-ocultos/
+[Problemas conocidos]: problemas-conocidos/
