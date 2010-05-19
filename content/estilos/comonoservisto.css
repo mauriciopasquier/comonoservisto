@@ -142,7 +142,7 @@ li:hover > ul.submenu > * {
   left: 0;
 }
 
-#validacion {
+#pie #validacion {
   text-align: right;
   position: fixed;
   bottom: 0;
@@ -150,7 +150,8 @@ li:hover > ul.submenu > * {
   width: 88px;
 }
 
-#cl {
+#pie #cl {
   font-size: xx-small;
-  margin: 20px 0 0 20px;
+  margin: 15px 0 0 20px;
+  line-height: 1.5em;
 }
