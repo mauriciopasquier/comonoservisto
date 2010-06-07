@@ -51,6 +51,13 @@ ul.submenu > * {
   display: none;
 }
 
+li:hover > ul.submenu {
+  position: absolute;
+  left: 15%;
+  background: #333;
+  width: 85%;
+}
+
 li:hover > ul.submenu > * {
   display: block;
 }
@@ -59,11 +66,6 @@ li:hover > ul.submenu > * {
   font-weight: bold;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
-  display: block !important;
-}
-
-.actual .noactual {
-  font-weight: normal;
 }
 
 #contenido {
