@@ -16,6 +16,11 @@ a:hover {
   color: #f90;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
 #barra {
   position: fixed;
   top: 20px;
@@ -27,9 +32,8 @@ a:hover {
   font-size: small;
 }
 
-img {
-  display: block;
-  margin: auto;
+#barra a {
+  text-decoration: none;
 }
 
 #barra h1 {
@@ -70,6 +74,10 @@ li:hover > ul.submenu > * {
   font-weight: bold;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
+}
+
+.actual .noactual {
+  font-weight: normal;
 }
 
 #contenido {
@@ -148,7 +156,6 @@ li:hover > ul.submenu > * {
 #pie {
   z-index: -1;
   width: 100%;
-  height: 45px;
   background: transparent;
   position: fixed;
   bottom: 0;
@@ -165,6 +172,7 @@ li:hover > ul.submenu > * {
 
 #pie #cl {
   font-size: xx-small;
-  margin: 15px 0 0 20px;
+  margin: 15px 0 5px 15px;
   line-height: 1.5em;
+  max-width: 20%;
 }
