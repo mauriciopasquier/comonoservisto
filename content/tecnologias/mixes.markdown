@@ -26,12 +26,6 @@ real.
 Las mejoras sobre el trabajo de Chaum se orientaron en dos direcciones: reducir la latencia para poder anonimizar tráfico
 interactivo, o aumentar y hacer variable la latencia para maximizar el anonimato contra atacantes globales. [Mixminion] es una de
 las últimas versiones de este segundo enfoque: un protocolo anónimo de reenvío basado en mensajes.
-Proxies de un salto
-
-Cuando el esfuerzo por anonimizar se concentró en flujos interactivos que requieren baja latencia, surgieron los proxies de un
-salto. Son servidores proxy que concentran una gran cantidad de flujo entrante, aumentando el conjunto de anonimato (la cantidad
-de personas entre las que un usuario determinado está escondiendo su identidad) al tiempo que remueven la información que indica
-el origen de los datos y retransmiten.
 
 [David Chaum]: http://en.wikipedia.org/wiki/David_Chaum
 [analisis]: /criptografia/ataques/#anlisis-de-trfico
