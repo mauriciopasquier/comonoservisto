@@ -5,7 +5,6 @@ titulo: Criptografía
 Criptografía
 ============
 
-Distintas cosas sobre criptografía, como las prácticas para [nombrar] a las partes y algunos [ataques] comunmente realizados.
+Distintas cosas sobre criptografía, como las prácticas para [nombrar] a las partes.
 
 [nombrar]: nombres/
-[ataques]: ataques/
