@@ -23,7 +23,9 @@ una clave de sesión que será usada para la encriptación simétrica con el cli
 siguiente salto. Una vez formado el circuito, el cliente puede enviar celdas de datos mediante encriptación simétrica con las
 claves de sesión.
 
-[proxy]: proxy/
+![Un circuito de cebollas](/imagenes/cebolla.png "Cada intermediario remueve una capa de la cebolla")
+
+[proxy]: /tecnologias/proxy/
 [nombres]: /criptografia/nombres/
 [cebollas]: http://www.onion-router.net/
 [patentada]: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=6266704.PN.&OS=PN/6266704&RS=PN/6266704
