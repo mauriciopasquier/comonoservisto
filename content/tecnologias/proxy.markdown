@@ -15,5 +15,5 @@ el origen de los datos y retransmiten.
 Son un punto único de falla, son vulnerables a un observador global que pueda [correlacionar] el tráfico entrante y el saliente, y
 además, es necesario confiar en que el servidor proxy es [honesto].
 
-[correlacionar]: /criptografia/ataques/#confirmacin-de-trfico
+[correlacionar]: /ataques/confirmacion-de-trafico/
 [honesto]: http://www.freeproxyserverinfo.com/

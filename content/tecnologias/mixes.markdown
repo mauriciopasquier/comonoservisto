@@ -28,6 +28,6 @@ interactivo, o aumentar y hacer variable la latencia para maximizar el anonimato
 las últimas versiones de este segundo enfoque: un protocolo anónimo de reenvío basado en mensajes.
 
 [David Chaum]: http://en.wikipedia.org/wiki/David_Chaum
-[analisis]: /criptografia/ataques/#anlisis-de-trfico
-[confirmacion]: /criptografia/ataques/#confirmacin-de-trfico
+[analisis]: /ataques/analisis-de-trafico/
+[confirmacion]: /ataques/confirmacion-de-trafico/
 [Mixminion]: http://mixminion.net/

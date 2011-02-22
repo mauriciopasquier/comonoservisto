@@ -45,6 +45,7 @@ anonimato) es necesario usar otras herramientas como [Privoxy] junto con [Tor].
 [Tor]: http://www.torproject.org/
 [predecesor]: /ataques/predecesor/
 [nombres]: /criptografia/nombres/
+[fijada]: https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/TorFAQ#Youshouldletpeoplechoosetheirpathlength.
 [TLS]: http://es.wikipedia.org/wiki/Transport_Layer_Security
 [Diffie-Hellman]: http://es.wikipedia.org/wiki/Diffie-Hellman
 [Privoxy]: http://www.privoxy.org/
