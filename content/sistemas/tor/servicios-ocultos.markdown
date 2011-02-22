@@ -108,7 +108,7 @@ poca huella y es liviano. Además, es recomendable usar un servidor web dedicado
 
    3. Guardar el archivo de configuración y reiniciar Tor
 
-En este momento Tor crea, en el `HiddenServiceDir` elegido el par de claves pública/privada y el archivo `hostname`, que es donde se
+En este momento Tor crea, en el `HiddenServiceDir` elegido, el par de claves pública/privada y el archivo `hostname`, que es donde se
 ubica la dirección `.onion` del servicio.
 
 Es posible configurar muchos servicios ocultos en una misma máquina, y para cada servicio oculto es posible configurar varios
