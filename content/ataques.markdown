@@ -16,3 +16,4 @@ Diferentes tipos de ataques posibles a las comunicaciones elecrónicas.
 * [Predecesor](predecesor/)
 * [Maleabilidad](maleabilidad/)
 * [Ataque de Sybil](ataque-de-sybil/)
+* [Particionamiento](particionamiento/)
