@@ -14,6 +14,7 @@ Desarrollo
   * [haml]
 * [Firefox]
   * [Firebug]
+* [thttpd]
 
 Corriendo sobre
 ---------------
@@ -45,13 +46,13 @@ mandenme un mail así doy crédito!
 * [imagen original](2379258591_bc756d9457_o.jpg)
 * [imagen modificada para el sitio](/imagenes/tipo.png)
 
-Versiones anteriores
---------------------
+Versión anterior
+----------------
 
-* [WordPress]
+[Alojada] en [WordPress].
+
 * [OpenOffice]
-* [thttpd]
-
+* [Gliffy]
 
 [ruby]: http://ruby-lang.org/es
 [nanoc]: http://nanoc.stoneship.org/
@@ -66,7 +67,9 @@ Versiones anteriores
 [CC]: http://search.creativecommons.org/
 [WordPress]: http://wordpress.org
 [OpenOffice]: http://www.openoffice.org/
+[Gliffy]: http://www.gliffy.com/
 [thttpd]: http://acme.com/software/thttpd/
 [git]: http://git-scm.com/
 [flickr]: http://flickr.com
 [cc-by-sa]: /copyleft/cc-by-sa/
+[Alojada]: http://redescebolla.wordpress.com/

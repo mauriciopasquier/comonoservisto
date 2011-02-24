@@ -16,4 +16,4 @@ Todo el trabajo es realizado con tecnología [libre][], en formatos estándar y 
 [Mauricio Pasquier Juan]: http://mauriciopasquier.com.ar
 [GFDL]: gfdl/
 [libre]: hecho-con/
-[Fuentes]: fuentes/
+[Fuentes]: hecho-con/#fuentes
