@@ -30,10 +30,23 @@ Gráficos
 Fuentes
 -------
 
-* [Obras Creative Commons][CC]
+### Código
+
+El código del sitio se puede clonar con [git] desde acá:
+
+    git://comonoservisto.com.ar:comonoservisto.git
+
+### Imágenes
+
+Los svg y sus licencias están [acá][cc-by-sa]. Y el tipo del costado salió de [flickr], gracias a la
+búsqueda de [Creative Commons][CC] pero no me acuerdo el usuario. Si alguien lo encuentra, por favor
+mandenme un mail así doy crédito!
+
+* [imagen original](2379258591_bc756d9457_o.jpg)
+* [imagen modificada para el sitio](/imagenes/tipo.png)
 
 Versiones anteriores
----------
+--------------------
 
 * [WordPress]
 * [OpenOffice]
@@ -54,3 +67,6 @@ Versiones anteriores
 [WordPress]: http://wordpress.org
 [OpenOffice]: http://www.openoffice.org/
 [thttpd]: http://acme.com/software/thttpd/
+[git]: http://git-scm.com/
+[flickr]: http://flickr.com
+[cc-by-sa]: /copyleft/cc-by-sa/

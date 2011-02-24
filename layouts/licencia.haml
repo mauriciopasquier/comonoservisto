@@ -1,0 +1,16 @@
+- unless @item[:obras].nil?
+  %ul
+    - @item[:obras].each do |obra|
+      %li.obra
+        %span{:href => "http://purl.org/dc/dcmitype/StillImage", :property => "dct:title", :rel => "dct:type"}
+          %a{:href => "http://comonoservisto.com.ar/copyleft/fuentes/#{obra}", :rel => "dct:source"}=obra
+        by 
+        %a{:href => "http://lainventoria.com.ar/", :property => "cc:attributionName", :rel => "cc:attributionURL"}
+          La Inventoría
+        is licensed under a 
+        %a{:rel => "license", :href => "http://creativecommons.org/licenses/by-sa/3.0/"}
+          Creative Commons Attribution-ShareAlike 3.0 Unported License
+        Permissions beyond the scope of this license may be available at
+        %a{:href => "http://lainventoria.com.ar/#decimos", :rel => "cc:morePermissions"}="http://lainventoria.com.ar/"
+        %a{:rel => "license", :href => "http://creativecommons.org/licenses/by-sa/3.0/"}
+          %img{:alt => "Creative Commons License", :src => "http://i.creativecommons.org/l/by-sa/3.0/80x15.png"} 

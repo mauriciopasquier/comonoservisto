@@ -43,8 +43,12 @@ img {
   font-size: medium;
 }
 
+li {
+  padding: 10px;
+}
+
 #barra li {
-  padding: 0 15px;
+  padding: 5px 15px;
 }
 
 #barra ul {
