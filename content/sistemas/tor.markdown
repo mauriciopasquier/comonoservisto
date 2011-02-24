@@ -27,4 +27,4 @@ redes). Acá vemos en detalle cómo es la red, el proceso de conexión y las dec
 [Modelo de despliegue]: modelo-de-despliegue/
 [Ecosistema]: ecosistema/
 [Servicios ocultos en Tor]: servicios-ocultos/
-[Problemas conocidos]: problemas-conocidos/
+[Problemas conocidos]: problemas/

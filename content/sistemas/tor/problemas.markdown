@@ -5,10 +5,11 @@ titulo: Problemas conocidos
 Problemas conocidos
 ===================
 
-Como todo software, Tor no está libre de problemas. Algunos ataques caen fuera de su modelo de amenaza, por lo que no protege bien
-contra ellos. Otros son iniciativas de censores para limitar el uso de Tor. Algunos son problemas inherentes de escalabilidad del
-diseño actual (aunque no afectarían al sistema en mucho tiempo, y ya se está trabajando para solucionarlos) o por el tipo de uso
-que se le está dando. Y los más frecuentes, son malas configuraciones o aplicaciones defectuosas en el lado del cliente.
+Como todo software, Tor no está libre de problemas. [Algunos ataques][1] caen fuera de su modelo de amenaza,
+por lo que no protege bien contra ellos. Otros son [iniciativas][2] de censores para limitar el uso de Tor.
+Algunos son problemas inherentes de [escalabilidad][3] del diseño actual (aunque no afectarían al sistema en
+mucho tiempo, y ya se está trabajando para solucionarlos) o por el tipo de [uso][4] que se le está dando. Y los
+más frecuentes, son [malas configuraciones][5] o aplicaciones [defectuosas][6] en el lado del cliente.
 
 Vulnerabilidad a diversos ataques
 ---------------------------------
@@ -24,7 +25,7 @@ En algunos países, se intenta disuadir el uso de Tor, mediante bloqueos a gran 
 los Retransmisores son conocidas, así como también las Autoridades de Directorio. Para evitar la imposibilidad de conectarse a la
 red sin acceso a las Autoridades, los desarrolladores de Tor crearon los Retransmisores de Puente, que simplemente son
 Retransmisores no listados en los Directorios. La manera de descubrir la dirección de un Retransmisor de Puente es visitar la
-página `https://bridges.torproject.org/` o enviar un mail a `bridges@torproject.org` con la línea `get bridges` en el cuerpo. Vale la
+página del [servicio] o enviar un mail a `bridges (arroba) torproject.org` con la línea `get bridges` en el cuerpo. Vale la
 pena aclarar que no es posible bloquear estos Retransmisores como los publicados, porque estos servicios sólo devuelven un muy
 reducido número de Retransmisores, normalmente los más cercanos al cliente que los solicita.
 
@@ -71,4 +72,4 @@ remotamente.
 [Torbutton]: ../ecosistema/#torbutton
 [Firefox]: http://www.mozilla-europe.org/es/firefox/
 [TorDNS]: ../ecosistema/#tordns
-
+[servicio]: https://bridges.torproject.org/ 

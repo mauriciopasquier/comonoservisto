@@ -9,7 +9,7 @@ Acá hemos visto la [tecnología] de Tor para la creación de circuitos, las [pr
 [aplicaciones] que le dan forman. ¿Pero cómo funciona todo en conjunto?
 
 El componente principal del modelo es Tor en sí. Como ya se ha visto, cada instalación de Tor puede funcionar tanto en forma de
-cliente (OP) como de retransmisor (OR). Es sólo cuestión de una pequeña [configuración]. Nada impide a un usuario que quiera acceder
+cliente (Onion Proxy) como de retransmisor (Onion Router). Es sólo cuestión de una pequeña [configuración]. Nada impide a un usuario que quiera acceder
 a la red Tor como cliente administrar su propio Retransmisor, y de hecho, puede [beneficiar] su anonimato. El perjuicio es que se
 comparte el ancho de banda con los demás usuarios de la red, pero como ya se ha probado, un mejor servicio aumenta la seguridad
 para todos, al aumentar el conjunto de anonimato.
@@ -34,7 +34,7 @@ conexión.
 [tecnologa]: /tecnologias/circuitos-telescopicos/
 [propiedades]: ../propiedades/
 [aplicaciones]: ../ecosistema/
-[configuracin]: https://wiki.torproject.org/noreply/TheOnionRouter/TorFAQ#CanIJustConfigureAndRun
-[beneficiar]: https://wiki.torproject.org/noreply/TheOnionRouter/TorFAQ#RelayAnonymity
+[configuracin]: https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/TorFAQ#SoIcanjustconfigureanicknameandORPortandjointhenetwork
+[beneficiar]: https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/TorFAQ#DoIgetbetteranonymityifIrunarelay
 [SOCKS]: http://es.wikipedia.org/wiki/SOCKS
-[correctamente]: http://redescebolla.wordpress.com/2010/02/07/tor/#dnssocks
+[correctamente]: ../problemas/#solicitudes-dns-por-fuera-de-tor

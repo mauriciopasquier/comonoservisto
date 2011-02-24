@@ -27,9 +27,10 @@ sus flujos TCP y así lograr anonimato.
 
 Los Retransmisores se dividen en varios tipos, relativos al uso circunstancial que le de un cliente (i.e. de entrada, medios, de
 salida). Primeros en orden de importancia están los nodos de salida (exit nodes), que son los que comunican la red Tor con el
-exterior. Dado que son la cara visible de todos los usuarios de la red, es frecuente que sean [bloqueados] [por] [abuso] en diferentes
-sitios. Para reducir el riesgo, Tor permite fijar [políticas de salida][politicas] (e.g. bloquear el puerto 25 para anular el spam, limitar el
-ancho de banda cedido).
+exterior. Dado que son la cara visible de todos los usuarios de la red, es frecuente que sean
+[bloqueados][wikiuser1] [por][wikiuser2] [abuso][wikiuser3] en diferentes sitios. Para reducir el riesgo,
+Tor permite fijar [políticas de salida][politicas] (e.g. bloquear el puerto 25 para anular el spam, limitar
+el ancho de banda cedido).
 
 Protege contra ataques de análisis de tráfico
 ---------------------------------------------
@@ -97,9 +98,9 @@ barreras técnicas, promoviendo a Tor, investigando, haciéndolo portable a dist
 [7]: #est-ampliamente-documentado
 [8]: #es-software-libre
 [9]: #tiene-una-gran-base-de-usuarios
-[bloqueados]: http://en.wikipedia.org/wiki/User_talk:85.214.68.153
-[por]: http://en.wikipedia.org/wiki/User_talk:81.175.61.4
-[abuso]: http://en.wikipedia.org/wiki/User_talk:212.42.236.140
+[wikiuser1]: http://en.wikipedia.org/wiki/User_talk:85.214.68.153
+[wikiuser2]: http://en.wikipedia.org/wiki/User_talk:81.175.61.4
+[wikiuser3]: http://en.wikipedia.org/wiki/User_talk:212.42.236.140
 [politicas]: https://www.torproject.org/faq#ExitPolicies
 [Tor]: ../ecosistema/#tor
 [Vidalia]: ../ecosistema/#vidalia
@@ -108,7 +109,7 @@ barreras técnicas, promoviendo a Tor, investigando, haciéndolo portable a dist
 [Pidgin]: http://www.pidgin.im/
 [Firefox]: http://www.mozilla-europe.org/es/firefox/
 [EFF]: http://www.eff.org/
-[portables]: http://portabletor.sourceforge.net/
+[portables]: http://sourceforge.net/search/?type_of_search=soft&type_of_search=soft&words=portable%20tor
 [doc]: http://www.torproject.org/documentation.html.es
 [detallados]: http://gitweb.torproject.org/tor.git?a=blob_plain;hb=HEAD;f=doc/spec/tor-spec.txt
 [biblioteca]: http://freehaven.net/anonbib/

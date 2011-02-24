@@ -5,9 +5,11 @@ titulo: Servicios ocultos
 Servicios ocultos
 =================
 
-Ya vimos cómo [logra] un usuario conectado a Tor (Alice) ser anónimo para el servicio (Bob) al que accede. Pero, ¿qué pasa si es Bob el que
-desea permanecer anónimo? Para esto existen los **servicios ocultos** o de ubicación oculta (location-hidden services). Mediante un
-servicio oculto, es posible ofrecer un servidor en la red Tor sin una IP que lo identifique, con la concesión de accederlo a través de Tor.
+Ya vimos cómo [logra] un usuario conectado a Tor ([Alice][nombres]) ser anónimo para el servicio
+([Bob][nombres]) al que accede. Pero, ¿qué pasa si es Bob el que desea permanecer anónimo? Para esto existen
+los **servicios ocultos** o de ubicación oculta (location-hidden services). Mediante un servicio oculto, es
+posible ofrecer un servidor en la red Tor sin una IP que lo identifique, con la concesión de accederlo a
+través de Tor.
 
 Cómo funcionan, paso a paso
 ---------------------------
@@ -116,6 +118,7 @@ puertos virtuales (como el puerto `80` en el ejemplo) donde Tor interceptará la
 
 
 [logra]: /tecnologias/circuitos-telescopicos/
+[nombres]: /criptografia/nombres/
 [configurar]: #configuracin-de-servicios-ocultos
 [tabla hash distribuida]: http://es.wikipedia.org/wiki/Tabla_de_Hash_Distribuido
 [indice]: http://anegvjpd77xuxo45.onion/services/
