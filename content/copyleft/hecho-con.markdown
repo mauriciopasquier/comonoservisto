@@ -39,12 +39,9 @@ El código del sitio se puede clonar con [git] desde acá:
 
 ### Imágenes
 
-Los svg y sus licencias están [acá][cc-by-sa]. Y el tipo del costado salió de [flickr], gracias a la
-búsqueda de [Creative Commons][CC] pero no me acuerdo el usuario. Si alguien lo encuentra, por favor
-mandenme un mail así doy crédito!
-
-* [imagen original](2379258591_bc756d9457_o.jpg)
-* [imagen modificada para el sitio](/imagenes/tipo.png)
+Los svg y sus licencias están [acá][cc-by-sa]. La [chica] del costado es una obra de [wader] llamada [Behind
+curtain] que salió de [flickr] con licencia [Creative Commons][CC] [by-nc-sa], gracias a su [buscador] de
+obras libres.
 
 Versión anterior
 ----------------
@@ -54,6 +51,10 @@ Versión anterior
 * [OpenOffice]
 * [Gliffy]
 
+[chica]: /imagenes/mina.png
+[Behind curtain]: http://www.flickr.com/photos/wader/20346561
+[by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/2.0/
+[wader]: http://www.flickr.com/photos/wader/
 [ruby]: http://ruby-lang.org/es
 [nanoc]: http://nanoc.stoneship.org/
 [markdown]: http://daringfireball.net/projects/markdown/
@@ -64,7 +65,8 @@ Versión anterior
 [ArchLinux]: http://www.archlinux.org/
 [Inkscape]: http://www.inkscape.org/
 [Gimp]: http://www.gimp.org/
-[CC]: http://search.creativecommons.org/
+[CC]: http://creativecommons.org/
+[buscador]: http://search.creativecommons.org/
 [WordPress]: http://wordpress.org
 [OpenOffice]: http://www.openoffice.org/
 [Gliffy]: http://www.gliffy.com/
