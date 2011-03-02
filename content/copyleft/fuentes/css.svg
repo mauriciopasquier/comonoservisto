@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -12,12 +13,13 @@
    height="1052.3622047"
    id="svg2"
    sodipodi:version="0.32"
-   inkscape:version="0.46"
+   inkscape:version="0.48.1 r9760"
    inkscape:export-filename="/home/matias/eudemocracia/css.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="css.svg"
-   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.1">
   <defs
      id="defs4">
     <inkscape:perspective
@@ -63,16 +65,28 @@
      objecttolerance="10"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8323121"
-     inkscape:cx="290.1969"
-     inkscape:cy="539.1486"
+     inkscape:zoom="16.021977"
+     inkscape:cx="374.62919"
+     inkscape:cy="528.68002"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1022"
-     inkscape:window-height="707"
-     inkscape:window-x="0"
-     inkscape:window-y="0" />
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="-1"
+     inkscape:window-y="0"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       orientation="0,1"
+       position="361.37863,531.64476"
+       id="guide3005" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="355.5741,520.47261"
+       id="guide3007" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -81,6 +95,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -91,7 +106,7 @@
     <g
        id="g2502"
        transform="matrix(0.8749999,0,0,0.8749892,46.503719,65.738111)"
-       inkscape:export-filename="/home/matias/eudemocracia/css.png"
+       inkscape:export-filename="/home/matias/repositorios/comonoservisto/content/imagenes/css.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90">
       <rect
@@ -104,14 +119,12 @@
          id="rect2383"
          style="fill:#ffffff;fill-opacity:1;stroke:#4d4d4d;stroke-width:1.88538134;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <rect
-         ry="1.8114854"
-         rx="1.9622916"
-         y="519.43396"
+         y="517.72198"
          x="359.73373"
-         height="13.586141"
-         width="58.868748"
+         height="17.366711"
+         width="60.580681"
          id="rect3239"
-         style="fill:#4d4d4d;fill-opacity:1;stroke:none;stroke-width:4.67475271;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+         style="fill:#4d4d4d;fill-opacity:1;stroke:none" />
       <g
          clip-path="url(#clipPath3410)"
          transform="matrix(0.4283392,0,0,0.3954205,327.6022,516.80983)"
@@ -166,15 +179,15 @@
         </g>
       </g>
       <text
-         transform="scale(1.040793,0.9608059)"
+         transform="scale(1.040793,0.96080585)"
          id="text3414"
-         y="552.70697"
-         x="359.67282"
-         style="font-size:13.19766903px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
+         y="554.02191"
+         x="355.81421"
+         style="font-size:18.74327278px;font-style:normal;font-weight:normal;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Bitstream Vera Sans"
          xml:space="preserve"><tspan
-           style="font-size:16px;font-weight:bold"
-           y="552.70697"
-           x="359.67282"
+           style="font-size:22.72312927px;font-weight:bold"
+           y="554.02191"
+           x="355.81421"
            id="tspan3416"
            sodipodi:role="line">css</tspan></text>
     </g>
