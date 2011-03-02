@@ -171,11 +171,11 @@ li:hover > ul.submenu > * {
 }
 
 #pie #validacion {
-  text-align: right;
-  position: fixed;
-  bottom: 0;
-  right: 5px;
-  width: 88px;
+  margin: 0 0 5px 15px;
+}
+
+#pie #validacion img {
+  display: inline
 }
 
 #pie #cl {
