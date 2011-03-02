@@ -1,2 +1,3 @@
 @import url('/estilos/comonoservisto.css');
-body { background: #000 url(/imagenes/tipo.png) no-repeat fixed bottom right;}
+
+body { background-position: bottom right;}
