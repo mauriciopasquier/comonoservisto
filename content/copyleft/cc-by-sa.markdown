@@ -5,6 +5,7 @@ obras:
   - xhtml-rdfa.svg
   - proxy.svg
   - cebolla.svg
+  - mixnet.svg
   - circuito0.svg
   - circuito1.svg
   - circuito2.svg

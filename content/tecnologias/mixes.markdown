@@ -10,14 +10,16 @@ servidores proxy para crear una instancia de comunicación difícil de rastrear.
 
 Básicamente, funcionan de la siguiente manera: el mensaje a enviar (A) es encriptado por el cliente con la clave pública de cada
 uno de los servidores proxy a recorrer. Luego es enviado al primer proxy de la cadena, el cual remueve su capa de encriptación, lo
-demora en espera de más mensajes (B, C y D), y los reenvía al siguiente proxy de la cadena en un orden distinto al de llegada,
+demora en espera de más mensajes (B y C), y los reenvía al siguiente proxy de la cadena en un orden distinto al de llegada,
 hasta que el último proxy obtiene el mensaje original y lo envía a destino.
 
-Gracias a la encriptación en capas entre proxies y a la demora y reordenamiento los ataques de confirmación de tráfico, un
-observador no puede determinar qué mensaje de salida corresponde a qué mensaje de entrada (específicamente, se evitan los ataques
-de [análisis de tráfico][analisis] y de [confirmación de tráfico][confirmacion]). Se utiliza una cadena de proxies para disminuir
-la probabilidad de que el servidor esté controlado por un atacante (si al menos uno de los servidores de la cadena es honesto, se
-preserva algo de anonimato).
+![Una red de mezcla](/imagenes/mixnet.png "Cada servidor espera a tener varios mensajes y los reenvía en un orden distinto al de llegada")
+
+Gracias a la encriptación en capas entre proxies y a la demora y reordenamiento, un observador no puede
+determinar qué mensaje de salida corresponde a qué mensaje de entrada (específicamente, se evitan los
+ataques de [análisis de tráfico][analisis] y de [confirmación de tráfico][confirmacion]). Se utiliza una
+cadena de proxies para disminuir la probabilidad de que el servidor esté controlado por un atacante (si al
+menos uno de los servidores de la cadena es honesto, se preserva algo de anonimato).
 
 El problema que acarrea este enfoque es la altísima latencia que tiene la red, dado que se utiliza encriptación de clave pública
 en cada salto, además de las demoras voluntarias. Es útil para aplicaciones como el email, que no requieren respuestas en tiempo
