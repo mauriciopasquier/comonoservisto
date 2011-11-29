@@ -34,6 +34,7 @@ img {
 
 #barra a {
   text-decoration: none;
+  background: transparent;
 }
 
 #barra h1 {
@@ -164,7 +165,6 @@ li:hover > ul.submenu > * {
 #pie {
   z-index: -1;
   width: 100%;
-  background: transparent;
   position: fixed;
   bottom: 0;
   left: 0;

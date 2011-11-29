@@ -2,6 +2,9 @@
 
 # A few helpful tips about the Rules file:
 #
+# * The string given to #compile and #route are matching patterns for
+#   identifiers--not for paths. Therefore, you can’t match on extension.
+#
 # * The order of rules is important: for each item, only the first matching
 #   rule is applied.
 #
@@ -10,58 +13,59 @@
 #   item, use the pattern “/about/*/”; “/about/*” will also select the parent,
 #   because “*” matches zero or more characters.
 
-compile '/imagenes/*/' do
-end
-compile '/imagenes/*/', :rep => :menu do
-end
-
-compile '/estilos/*/' do
-end
-compile '/estilos/*/', :rep => :menu do
-end
-
-compile '/js/*/' do
-end
-compile '/js/*/', :rep => :menu do
-end
-
-compile '/copyleft/fuentes/*/' do
-end
-compile '/copyleft/fuentes/*/', :rep => :menu do
-end
+# reglas de compilación
+#######################
 
 compile '*', :rep => :menu do
-  filter :kramdown
-  layout 'default'
+  if @item[:extension] =~ /markdown/ then
+    filter :kramdown
+    layout 'default'
+  end
 end
 
-route '/imagenes/*/' do
-  item.identifier.chop + '.' + item[:extension]
+compile '*' do
+  case @item[:extension]
+  when /scss/
+    filter :sass, :syntax => :scss
+  when /markdown/
+    filter :kramdown
+    layout 'default'
+  when /haml/
+    filter :haml
+    layout 'default'
+  else
+  end
 end
 
-route '/estilos/*/' do
-  item.identifier.chop + '.css'
-end
+# reglas de ruteo
+#################
 
-route '/js/*/' do
-  item.identifier.chop + '.js'
-end
-
+# Las cosas en fuentes deben ir sin procesar
 route '/copyleft/fuentes/*/' do
   item.identifier.chop + '.' + item[:extension]
 end
 
-route '/imagenes/*/', :rep => :menu do
-end
-route '/estilos/*/', :rep => :menu do
-end
-route '/js/*/', :rep => :menu do
-end
-route '/copyleft/fuentes/*/', :rep => :menu do
+route '*', :rep => :menu do
+  if %w{html markdown}.include? @item[:extension] then
+    @item.identifier + 'index.html'
+  end
 end
 
-route '*', :rep => :menu do
-  item.identifier + 'index.html'
+route '*' do
+  if @item.binary?
+    # Write item with identifier /foo/ to /foo.ext
+    @item.identifier.chop + '.' + @item[:extension]
+  elsif %w{css scss sass}.include? @item[:extension]
+    @item.identifier.chop + '.css'
+  elsif %w{js coffescript}.include? @item[:extension]
+    @item.identifier.chop + '.js'
+  else
+    # Write item with identifier /foo/ to /foo/index.html
+    @item.identifier + 'index.html'
+  end
 end
+
+# reglas de layout
+##################
 
 layout '*', :haml
