@@ -16,13 +16,6 @@
 # reglas de compilación
 #######################
 
-compile '*', :rep => :menu do
-  if @item[:extension] =~ /markdown/ then
-    filter :kramdown
-    layout 'default'
-  end
-end
-
 compile '*' do
   case @item[:extension]
   when /scss/
@@ -43,12 +36,6 @@ end
 # Las cosas en fuentes deben ir sin procesar
 route '/copyleft/fuentes/*/' do
   item.identifier.chop + '.' + item[:extension]
-end
-
-route '*', :rep => :menu do
-  if %w{html markdown}.include? @item[:extension] then
-    @item.identifier + 'index.html'
-  end
 end
 
 route '*' do
