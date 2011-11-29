@@ -10,14 +10,14 @@
       - clase = (@item == pagina) ? 'actual' : 'noactual'
       - link = link_to(pagina[:titulo], pagina.rep_named(:default))
         %li{:class => clase}
-          = link if pagina.rep_named(:menu)
+          = link if pagina[:extension] == 'markdown'
           - unless pagina.children.empty?
             %ul.submenu
               - pagina.children.each do |subpagina|
               - clase = (@item == subpagina) ? 'actual' : 'noactual'
               - link = link_to(subpagina[:titulo], subpagina.rep_named(:default))
-                %li{:class => clase}= link if subpagina.rep_named(:menu)
+                %li{:class => clase}= link if subpagina[:extension] == 'markdown'
     - conclusiones = @items.find { |i| i.path == '/conclusiones/' }
     - clase = (@item == conclusiones) ? 'actual' : 'noactual'
-    - link = link_to(conclusiones[:titulo], conclusiones.rep_named(:menu))
+    - link = link_to(conclusiones[:titulo], conclusiones.rep_named(:default))
     %li{:class => clase}= link
