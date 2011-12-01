@@ -35,7 +35,12 @@ end
 
 # Las cosas en fuentes deben ir sin procesar
 route '/copyleft/fuentes/*/' do
-  item.identifier.chop + '.' + item[:extension]
+  if item[:extension] then
+    item.identifier.chop + '.' + item[:extension]
+  else
+    # para archivos sin extensión
+    item.identifier.chop
+  end
 end
 
 route '*' do

@@ -21,7 +21,7 @@ cebolla, que consiste en una capa de encriptación por cada nodo que vaya a form
 creador del circuito). Una vez removida su capa correspondiente, el Router de cebollas descubre la dirección del siguiente nodo y
 una clave de sesión que será usada para la encriptación simétrica con el cliente. Entonces reenvía la estructura de datos al
 siguiente salto. Una vez formado el circuito, el cliente puede enviar celdas de datos mediante encriptación simétrica con las
-claves de sesión.
+claves de sesión. Es vulnerable a ataques de [predecesor].
 
 ![Un circuito de cebollas](/imagenes/cebolla.png "Cada intermediario remueve una capa de la cebolla")
 
@@ -29,3 +29,4 @@ claves de sesión.
 [nombres]: /criptografia/nombres/
 [cebollas]: http://www.onion-router.net/
 [patentada]: http://patft.uspto.gov/netacgi/nph-Parser?Sect1=PTO1&Sect2=HITOFF&d=PALL&p=1&u=%2Fnetahtml%2FPTO%2Fsrchnum.htm&r=1&f=G&l=50&s1=6266704.PN.&OS=PN/6266704&RS=PN/6266704
+[predecesor]: /ataques/predecesor/

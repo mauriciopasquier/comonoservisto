@@ -5,7 +5,7 @@ titulo: Tor
 Tor
 ===
 
-Específicamente, Tor es una red superpuesta orientada a la conexión que usa [circuitos telescópicos][circuitos] para proveer de
+Específicamente, [Tor] es una red superpuesta orientada a la conexión que usa [circuitos telescópicos][circuitos] para proveer de
 anonimato a cualquier aplicación que utilice flujos TCP  para la comunicación. Tor se propone anonimizar el canal de comunicación,
 no los datos que lleva (normalmente es usado con otras aplicaciones para aumentar el anonimato). Logra esto creando circuitos que
 pasan a través de varios nodos, con la característica de que un nodo n conoce sólo la identidad del nodo `n-1` y del nodo `n+1`, o
@@ -22,6 +22,7 @@ redes). Acá vemos en detalle cómo es la red, el proceso de conexión y las dec
 * [Servicios ocultos en Tor]
 * [Problemas conocidos]
 
+[Tor]: http://www.torproject.org/
 [circuitos]: /tecnologias/circuitos-telescopicos/
 [Propiedades]: propiedades/
 [Modelo de despliegue]: modelo-de-despliegue/

@@ -5,11 +5,12 @@ titulo: Circuitos telescópicos
 Circuitos telescópicos
 ======================
 
-Los circuitos telescópicos son el nucleo de la segunda generación del Enrutamiento de [cebollas]: [Tor]
-reemplaza la creación de circuitos en un sólo paso de su antecesor por la creación en etapas, extendiendo el
-circuito un salto a la vez y negociando con cada uno una clave de sesión temporal, a través del túnel creado
-con su anterior. Este esquema mejora varios aspectos del anterior, como la posibilidad de que el cliente
-ahora sepa cuando un nodo que ha seleccionado no responde, o la resistencia a ataques de [predecesor].
+Los circuitos telescópicos son el nucleo de la segunda generación del Enrutador de [cebollas]: [Tor].
+Tor reemplaza la creación de circuitos en un sólo paso de su antecesor por la creación en etapas,
+extendiendo el circuito un salto a la vez y negociando con cada uno una clave de sesión temporal, a
+través del túnel creado con su anterior. Este esquema mejora varios aspectos del anterior, como la
+posibilidad de que el cliente ahora sepa cuando un nodo que ha seleccionado no responde, o la resistencia
+a ataques de [predecesor].
 
 Creación de circuitos
 ---------------------
@@ -38,14 +39,15 @@ Creación de circuitos
 Ahora Alice puede empezar a enviar datos, cifrados con cada clave de sesión en el orden inverso al que van a ser recorridos los
 nodos, a través de estos mismos. Al llegar a cada nodo, la capa de encriptación correspondiente es removida, tal como ocurría con
 las [cebollas], hasta el nodo de salida, que envía el flujo hacia Bob. Hay que aclarar que los datos entre el nodo de salida y Bob
-no están cifrados por Tor. Si dicha propiedad es importante (y debería serlo para alguien que está usando Tor para obtener
-anonimato) es necesario usar otras herramientas como [Privoxy] junto con [Tor].
+no están cifrados. Si dicha propiedad es importante (y debería serlo para alguien que está buscando
+permanecer anónimo) es necesario usar otras herramientas que realicen la encriptación, o pedirle a Bob
+que tenga una versión encriptada (e.g. con [HTTPS]) de su servicio.
 
+[Tor]: /sistemas/tor/
 [cebollas]: /tecnologias/cebollas/
-[Tor]: http://www.torproject.org/
 [predecesor]: /ataques/predecesor/
 [nombres]: /criptografia/nombres/
 [fijada]: https://trac.torproject.org/projects/tor/wiki/TheOnionRouter/TorFAQ#Youshouldletpeoplechoosetheirpathlength.
 [TLS]: http://es.wikipedia.org/wiki/Transport_Layer_Security
 [Diffie-Hellman]: http://es.wikipedia.org/wiki/Diffie-Hellman
-[Privoxy]: http://www.privoxy.org/
+[HTTPS]: https://en.wikipedia.org/wiki/HTTP_Secure

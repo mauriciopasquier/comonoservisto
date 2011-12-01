@@ -13,5 +13,7 @@ Nombres usados en este documento:
 
 * *Alice*: normalmente, Alice es la persona o el participante que inicia la comunicación.
 * *Bob*: es quien recibe los mensajes de Alice, o quien provee el servicio a donde Alice se conecta.
+* *Mallory*: un atacante malicioso, con la capacidad de leer, insertar y modificar mensajes, en la
+  comunicación entre Alice y Bob.
 
-[nombres]: http://es.wikipedia.org/wiki/Alice_y_Bob
+[nombres]: http://en.wikipedia.org/wiki/Alice_and_Bob
