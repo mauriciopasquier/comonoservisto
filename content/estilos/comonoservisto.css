@@ -184,3 +184,13 @@ li:hover > ul.submenu > * {
   line-height: 1.5em;
   max-width: 20%;
 }
+
+pre {
+  border: solid 1px #f90;
+  margin: 1em;
+  padding: 0 1em;
+}
+
+code {
+  font-style: italic;
+}
