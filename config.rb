@@ -32,6 +32,9 @@
 # Helpers
 ###
 
+# pretty urls
+activate :directory_indexes
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
@@ -47,11 +50,11 @@
 #   end
 # end
 
-set :css_dir, 'stylesheets'
-
-set :js_dir, 'javascripts'
-
-set :images_dir, 'images'
+# Mantenemos los directorios
+set :source, 'content'
+set :css_dir, 'estilos'
+set :js_dir, 'js'
+set :images_dir, 'imagenes'
 
 # Build-specific configuration
 configure :build do
