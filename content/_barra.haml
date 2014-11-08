@@ -1,0 +1,10 @@
+#secciones
+  %h1 Secciones
+  %ul.menu
+    - sitemap.order_by(:posicion).all.each do |pagina|
+      %li{class: actual_o_no(pagina)}
+        = link_to pagina.data.titulo, pagina
+        - unless pagina.children.empty? || pagina.data.posicion == 0
+          %ul.submenu
+            - pagina.children.each do |subpagina|
+              %li{class: actual_o_no(subpagina)}= link_to subpagina.data.titulo, subpagina

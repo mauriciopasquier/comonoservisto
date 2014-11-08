@@ -1,16 +1,4 @@
-source 'http://rubygems.org'
+source 'https://rubygems.org'
 
-gem 'nanoc', '3.4.0'
-
-# markdown
-gem 'kramdown'
-
-# haml
-gem 'haml'
-
-# sass/scss
-gem 'sass'
-
-group :desarrollo do
-  gem 'adsf'
-end
+gem 'middleman', '~> 3.3.6'
+gem 'middleman-livereload', '~> 3.1.0'

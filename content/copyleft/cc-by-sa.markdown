@@ -1,5 +1,6 @@
 ---
 titulo: Obras licenciadas con CC-BY-SA
+layout: licencia
 obras:
   - css.svg
   - xhtml-rdfa.svg
